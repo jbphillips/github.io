@@ -1,4 +1,5 @@
-theme: jekyll-theme-modernist
-
-title: [James Phillips]
-description: [A collection of design thoughts]
+title: Architect theme
+description: Architect is a theme for GitHub Pages.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-architect
