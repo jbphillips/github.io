@@ -11,7 +11,7 @@ layout: default
 
 ## PLoT Mobile - An Ionic companion app for PooHaw web services - Pool League manager
   * [Source Code](https://github.com/jbphillips/PLoT.Mobile)
-  * ![Image of PLot](https://github.com/jbphillips/projectImages/blob/master/PLot1.png)
+  * ![Image of PLot](https://raw.githubusercontent.com/jbphillips/projectImages/master/PLot1.png)
 
 ## PLoT Auth Services - Angular4+ authorization NPM package - (Stored in MyGet)
   * [Source Code](https://github.com/jbphillips/PLoT.Auth.Service)
