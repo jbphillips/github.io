@@ -2,7 +2,24 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+##Projects and helpful seeds
+
+* Firebase and AngularFire2 starter seed for Ionic
+** [Source Code](https://github.com/jbphillips/AngularFire2Ionic3Starter)
+
+* PLoT Mobile - An Ionic companion app for PooHaw web services - Pool League manager
+** [Source Code](https://github.com/jbphillips/PLoT.Mobile)
+
+* PooHaw - ServiceStack C# web service to manage Pool league seasons
+** [Source Code](https://github.com/jbphillips/PooHawServer)
+
+* EMS Time tracker
+** [Source Code](https://github.com/jbphillips/EMS-Tracker)
+
+* Angular 4+ ToDo using Json Placeholder
+** [Source Code](https://github.com/jbphillips/Angular4ToDoJsonServer)
+
+<!-- Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](another-page).
 
@@ -120,4 +137,4 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 
 ```
 The final element.
-```
+``` -->
