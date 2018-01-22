@@ -2,13 +2,19 @@
 layout: default
 ---
 
-# Projects and helpful seeds
+[Design thoughts and patterns](another-page).
+
+# Projects code and helpful seeds
 
 ## Firebase and AngularFire2 starter seed for Ionic
   * [Source Code](https://github.com/jbphillips/AngularFire2Ionic3Starter)
 
 ## PLoT Mobile - An Ionic companion app for PooHaw web services - Pool League manager
   * [Source Code](https://github.com/jbphillips/PLoT.Mobile)
+  * ![Image of PLot](https://github.com/jbphillips/projectImages/blob/master/PLot1.png)
+
+## PLoT Auth Services - Angular4+ authorization NPM package - (Stored in MyGet)
+  * [Source Code](https://github.com/jbphillips/PLoT.Auth.Service)
 
 ## PooHaw - ServiceStack C# web service to manage Pool league seasons
   * [Source Code](https://github.com/jbphillips/PooHawServer)
@@ -18,6 +24,15 @@ layout: default
 
 ## Angular 4+ ToDo using Json Placeholder
   * [Source Code](https://github.com/jbphillips/Angular4ToDoJsonServer)
+
+## Gems Cloud Shell - An app shell created for Gems applications
+  * [Source Code](https://github.com/jbphillips/zircon-shell)
+
+## Gems Deploy - ServiceStack web services for Gems Cloud
+  * [Source Code](https://github.com/jbphillips/Gems.Cloud.Deploy)
+
+## Gems Cloud Customer Manager - Angualr app NPM package - (Stored in MyGet)
+  * [Source Code](https://github.com/jbphillips/Gems.Cloud.CustomerManager)
 
 <!-- Text can be **bold**, _italic_, or ~~strikethrough~~.
 
