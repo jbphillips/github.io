@@ -8,11 +8,11 @@ LocalStorage is not very popular (due to size browser sizing constraints and lac
 
 Setting and getting with localStorage is dead simple. Consider this JavaScript example here:
 
-```
-localStorage.setItem("test", "Hello World!"); //It's saved!
-var test = localStorage.getItem("test"); //Let's grab it and save it to a variable
-console.log(test); //Logs "Hello World!"
-```
+
+    localStorage.setItem("test", "Hello World!"); //It's saved!
+    var test = localStorage.getItem("test"); //Let's grab it and save it to a variable
+    console.log(test); //Logs "Hello World!"
+
 
 Easy peasy. Except when you try something like this:
 
