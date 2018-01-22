@@ -146,7 +146,7 @@ There is a limit on how much data you can put in LocalStorage. This limit is set
 Data stored in LocalStorage is persitent. This means that if you store some data, close your browser and then open up your appllication again, all of the data will still be retrievable. However you may only want to store some data for the duration of a user session. In this case you can use the sessionStorage interface. This has all of the same functions that localStorage does but the data you save will automatically be wiped when the user closes the browser tab.
 
     // Storing Data
-    sessionStorage.setItem('name', 'Matt West');
+    sessionStorage.setItem('name', 'James Phillips');
 
     // Retrieving Data
     var name = sessionStorage.getItem('name');
