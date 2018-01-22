@@ -27,6 +27,7 @@ layout: default
 
 ## Gems Cloud Shell - An app shell created for Gems applications
   * [Source Code](https://github.com/jbphillips/zircon-shell)
+  * ![Image of PLot]( https://raw.githubusercontent.com/jbphillips/projectImages/master/GemsShell.PNG)
 
 ## Gems Deploy - ServiceStack web services for Gems Cloud
   * [Source Code](https://github.com/jbphillips/Gems.Cloud.Deploy)
