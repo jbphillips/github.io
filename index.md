@@ -7,9 +7,16 @@ layout: default
 # Projects code and helpful seeds
 
 ## Firebase and AngularFire2 starter seed for Ionic
+This Ionic3 App has config in it for Firebase and AngularFire2. Clone it to start other cloud based apps for a much easier life 
+
+
   * [Source Code](https://github.com/jbphillips/AngularFire2Ionic3Starter)
 
 ## PLoT Mobile - An Ionic companion app for PooHaw web services - Pool League manager
+PLoT makes it easy to add and manage league games, team communication.
+
+Player captains manage their teams availability and scores and can manager roster, alternate sub and general communication. PLoT makes sure everyone is alerted to the information they need for the game in time.
+
   * [Source Code](https://github.com/jbphillips/PLoT.Mobile)
   * ![Image of PLot](https://raw.githubusercontent.com/jbphillips/projectImages/master/PLot1.png)
 
@@ -20,6 +27,8 @@ layout: default
   * [Source Code](https://github.com/jbphillips/PooHawServer)
 
 ## EMS Time tracker
+This is a helpful Ionic 3/ Angular 5 mobile app for my Paramedic time. Dispatch times are saved by a button click and logged. This log can be emailed when call is finished
+
   * [Source Code](https://github.com/jbphillips/EMS-Tracker)
 
 ## Angular 4+ ToDo using Json Placeholder
