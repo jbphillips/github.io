@@ -2,7 +2,9 @@
 layout: default
 ---
 
-[Design thoughts and patterns](another-page).
+[Storage Options](another-page)
+[Deploying an Angular App](another-page)
+[MyGet NPM Support](https://docs.myget.org/docs/reference/myget-npm-support)
 
 # Projects code and helpful seeds
 
