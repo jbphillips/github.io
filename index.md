@@ -2,9 +2,10 @@
 layout: default
 ---
 
-[Storage Options](another-page)
-[Deploying an Angular App](deploy-angular-app)
-[MyGet NPM Support](https://docs.myget.org/docs/reference/myget-npm-support)
+* [Storage Options](another-page)
+* [Deploying an Angular App](deploy-angular-app)
+* [MyGet NPM Support](https://docs.myget.org/docs/reference/myget-npm-support)
+* [Set NPM Registry](setRegistry)
 
 # Projects code and helpful seeds
 

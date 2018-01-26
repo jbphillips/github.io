@@ -115,7 +115,7 @@ To remove an item from the datastore you use the removeItem() function. This fun
 
     localStorage.removeItem('name');
 
-##Clearing the Datastore
+## Clearing the Datastore
 
 If you want to delete all of the data in the datastore you can use the clear() function.
 
