@@ -19,3 +19,10 @@ The amount of times I have cut and pasted this line... ugh. I'll include it so I
 ## NPM Default - https://www.npmjs.com/package/angular:
 
     npm config set registry="https://registry.npmjs.org/"
+
+## Working with private npm registry feeds
+
+If a MyGet npm feed is marked as private, it will always require authentication. To setup authentication, run the following commands:
+
+    npm adduser --registry=https://www.myget.org/F/your-feed-name/npm/
+    npm config set always-auth true 
