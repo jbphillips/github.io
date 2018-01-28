@@ -13,6 +13,8 @@ The amount of times I have cut and pasted this line... ugh. I'll include it so I
 ## NPM module in MyGet for GEMS:
 
     npm config set registry="https://www.myget.org/F/quartz/npm/"
+    npm config set registry="https://www.myget.org/F/moist-package-feed/npm/"
+    npm config set registry="https://www.myget.org/F/zircon/npm/"
 
 ## NPM Default - https://www.npmjs.com/package/angular:
 
