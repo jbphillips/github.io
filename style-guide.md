@@ -2,41 +2,49 @@
 layout: default
 ---
 
+I took some time to really tighten up our thinking around writing production CSS/LESS, the major updates being:
+
+Limit LESS to variables and mixins (no nesting, guards, extend, etc.) — while these language features ~can~ be powerful, we found that inexperienced LESS developers often got in trouble with them fairly easily. We also just preferred the visual aesthetic of pure CSS (and the consistency it afforded) and wanted to move our codebase as far in that direction as reasonable.
+
+Classes and IDs are lowercase with words separated by a dash — this is how most of us had been writing CSS at the time with Bootstrap, Skeleton, Ratchet, etc. And we thought it made sense to do the same here. Another reason is it followed the naming conventions set forth by the CSS language itself, i.e. border-radius-top-left, etc.
+
+Prefer components over page level styles — we wanted our front end to feel like library code, and began to break files like profile.less into smaller more focused files like button.less, dialog.less, tooltip.less, etc.
+
 ## LESS Coding Guidelines
 The Obvious Corporation uses LESS as its CSS preprocessor. It's helpful to become familiar with its dynamic behavior before reading these guidelines.
 
-# Naming Conventions
+### Naming Conventions
 Classes and IDs are lowercase with words separated by a dash:
 
-# Right:
+### Right:
 
 .user-profile {}
 .post-header {}
 #top-navigation {}
-# Wrong:
+### Wrong:
 
 .userProfile {}
 .postheader {}
 #top_navigation {}
 Image file names are lowercase with words separated by a dash:
 
-# Right:
+### Right:
 
 icon-home.png
-# Wrong:
+### Wrong:
 
 iconHome.png
 icon_home.png
 iconhome.png
 Image file names are prefixed with their usage.
 
-# Right:
+### Right:
 
 icon-home.png
 bg-container.jpg
 bg-home.jpg
 sprite-top-navigation.png
-# Wrong:
+### Wrong:
 
 home-icon.png
 container-background.jpg
@@ -45,26 +53,26 @@ top-navigation.png
 IDs vs. Classes
 You should almost never need to use IDs. Broken behavior due to ID collisions are hard to track down and annoying.
 
-# Color Units
+### Color Units
 When implementing feature styles, you should only be using color variables provided by colors.less.
 
 When adding a color variable to colors.less, using RGB and RGBA color units are preferred over hex, named, HSL, or HSLA values.
 
-# Right:
+### Right:
 
 rgb(50, 50, 50);
 rgba(50, 50, 50, 0.2);
-# Wrong:
+### Wrong:
 
 #FFF;
 #FFFFFF;
 white;
 hsl(120, 100%, 50%);
 hsla(120, 100%, 50%, 1);
-# z-index scale
+### z-index scale
 Please use the z-index scale defined in z-index.less. @z-index-1 - @z-index-9 are provided. @z-index-9 is the kill -9 of our z-index scale and really should never be used.
 
-# Font Weight
+### Font Weight
 With the additional support of web fonts font-weight plays a more important role than it once did. Different font weights will render typefaces specifically created for that weight, unlike the old days where bold could be just an algorithm to fatten a typeface. Obvious uses the numerical value of font-weight to enable the best representation of a typeface. The following table is a guide:
 
 Raw font weights should not be specified. Instead, use the appropriate font mixin:  .wf-sans-i7, .wf-sans-n7, etc.
