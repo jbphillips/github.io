@@ -4,6 +4,8 @@ layout: default
 
 ## Deploy an Angular App
 
+ng build --prod --base-href /zircon/
+
 The Angular CLI allows you to run a command that creates a build for production, which we will be using. Lets go!
 
 ## Creating a Production Build
