@@ -34,7 +34,7 @@ This is a helpful Ionic 3/ Angular 5 mobile app for my Paramedic time. Dispatch 
 
 ## Gems Cloud Shell - An app shell created for Gems applications
   * [Source Code](https://github.com/jbphillips/zircon-shell)
-  * ![Image of PLot]( https://raw.githubusercontent.com/jbphillips/projectImages/master/GemsShell.PNG)
+  * ![Image of PLot](./assets/images/zircon.PNG)
 
 ## Gems Deploy - ServiceStack web services for Gems Cloud
   * [Source Code](https://github.com/jbphillips/Gems.Cloud.Deploy)
